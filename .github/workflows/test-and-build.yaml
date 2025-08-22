@@ -50,12 +50,6 @@ jobs:
       - name: Install CocoaPods
         run: |
           sudo gem install cocoapods
-
-      - name: Install iOS project dependencies
-        run: |
-          cd ios
-          pod install
-          cd ..    
       
       # 12.
       - name: Flutter build ipa
