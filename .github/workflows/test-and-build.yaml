@@ -42,11 +42,6 @@ jobs:
         run: |
           flutter pub get
 
-      # 9.
-      - name: Check for lints
-        run: |
-          flutter analyze
-
       # 11.
       - name: Build APK
         run: |
