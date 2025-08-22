@@ -49,9 +49,7 @@ jobs:
 
       - name: Install CocoaPods
         run: |
-          cd ios
-          pod install
-          cd ..
+          sudo gem install cocoapods
       
       # 12.
       - name: Flutter build ipa
